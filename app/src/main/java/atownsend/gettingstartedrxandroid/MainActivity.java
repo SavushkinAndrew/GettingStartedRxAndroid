@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         rootView = (LinearLayout) findViewById(R.id.root_view);
 
-        // AsyncTask operation setup
+        // AsyncTask operation setup some changess
         startAsyncTaskButton = (Button) findViewById(R.id.start_async_task_btn);
         startAsyncTaskButton.setOnClickListener(new View.OnClickListener() {
             @Override
