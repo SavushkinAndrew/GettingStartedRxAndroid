@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // RxJava operation setup aaaaa
+        // RxJava operation setup aaaaa what what
         final Observable<String> operationObservable = Observable.create(new Observable.OnSubscribe<String>() {
             @Override
             public void call(Subscriber<? super String> subscriber) {
